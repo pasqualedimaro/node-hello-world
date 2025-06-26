@@ -34,3 +34,25 @@ console.log(process.env.SECRET_PASSWORD);
 //BONUS2
 
 // installo axios e chalk sempre tramite console
+// aggiungo type module nel package.json
+// importo axios e chalk nel mio index .js
+
+import axios from "axios";
+import chalk from "chalk";
+import { error } from "console";
+
+//creo una costante con la api url
+
+const api = 'https://lanciweb.github.io/demo/api/pictures/'
+
+// faccio una chiamata utilizzando axios
+
+axios.get(api)
+.then(response =>{
+    console.log(response.data);
+})
+.catch(error =>{
+    console.error("error fetching data", error)
+});
+
+//la chiamata funziona il server mi risponde
