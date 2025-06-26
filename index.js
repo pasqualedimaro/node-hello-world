@@ -25,3 +25,7 @@ console.log("Hello Boolean")
 
 // installo il pacchetto dotenv quindi, in console lo installo con npm i dotenv
 // aggiungo il file .gitignore per ignorare la cartella node_modules del pacchetto
+//creo file .env con una password segreta e la ignoro sempre nel file gitignore
+//aggiungo allo script env e process in index.js
+
+console.log(process.env.SECRET_PASSWORD);
