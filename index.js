@@ -14,3 +14,5 @@
 console.log("hello world")
 
 //eseguo nel terminale con il comando node index.js
+
+//aggiungo start nello script in package.json e lo lancio con npm run start
