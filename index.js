@@ -29,3 +29,8 @@ console.log("Hello Boolean")
 //aggiungo allo script env e process in index.js
 
 console.log(process.env.SECRET_PASSWORD);
+
+
+//BONUS2
+
+// installo axios e chalk sempre tramite console
