@@ -39,7 +39,7 @@ console.log(process.env.SECRET_PASSWORD);
 
 import axios from "axios";
 import chalk from "chalk";
-import { log } from "console";
+
 
 //creo una costante con la api url
 
@@ -50,13 +50,20 @@ const api = 'https://lanciweb.github.io/demo/api/pictures/'
 axios.get(api)
 .then(response =>{
     console.log(response.data);
+    response.data.forEach(image => {
+        console.log(chalk.red(image.title));
+        console.log(chalk.yellow(image.title));
+    });
 })
 .catch(error =>{
     console.error("error fetching data", error)
 });
+
+
 
 //la chiamata funziona il server mi risponde
 
 // faccio un console log utilizzando chalk per cambiarci ilò colore, dicendo che il server mi ha risposto
 
 console.log(chalk.green("il sever funziona!"));
+
