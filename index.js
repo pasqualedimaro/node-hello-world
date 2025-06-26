@@ -39,7 +39,6 @@ console.log(process.env.SECRET_PASSWORD);
 
 import axios from "axios";
 import chalk from "chalk";
-import { error } from "console";
 
 //creo una costante con la api url
 
@@ -56,3 +55,4 @@ axios.get(api)
 });
 
 //la chiamata funziona il server mi risponde
+
