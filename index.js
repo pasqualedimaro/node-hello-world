@@ -11,8 +11,12 @@
 
 // stampo in console hello wordl
 
-console.log("hello world")
+console.log("Hello Boolean")
 
 //eseguo nel terminale con il comando node index.js
 
 //aggiungo start nello script in package.json e lo lancio con npm run start
+
+//aggiungo un dev con watch nello script di paackage.json per vedere in tempo reale il server scrivendo nel terminale npm run dev
+//cambio il log in Hello Boolean per vederlo in tempo reale con il server aperto
+// chiudo server con ctrl +c
