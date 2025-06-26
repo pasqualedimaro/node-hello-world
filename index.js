@@ -9,4 +9,8 @@
 // in terminale vedo elenco con ls
 // mi trovo nella cartella node-hello-world e quindi inizializzo con npm init y 
 
+// stampo in console hello wordl
 
+console.log("hello world")
+
+//eseguo nel terminale con il comando node index.js
