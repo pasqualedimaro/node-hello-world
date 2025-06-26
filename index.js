@@ -20,3 +20,8 @@ console.log("Hello Boolean")
 //aggiungo un dev con watch nello script di paackage.json per vedere in tempo reale il server scrivendo nel terminale npm run dev
 //cambio il log in Hello Boolean per vederlo in tempo reale con il server aperto
 // chiudo server con ctrl +c
+
+//BONUS
+
+// installo il pacchetto dotenv quindi, in console lo installo con npm i dotenv
+// aggiungo il file .gitignore per ignorare la cartella node_modules del pacchetto

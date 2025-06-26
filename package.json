@@ -6,7 +6,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "node --watch index.js"
-    
   },
   "repository": {
     "type": "git",
@@ -19,5 +18,8 @@
     "url": "https://github.com/pasqualedimaro/node-hello-world/issues"
   },
   "homepage": "https://github.com/pasqualedimaro/node-hello-world#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
 }
