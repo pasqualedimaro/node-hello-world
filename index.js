@@ -39,6 +39,7 @@ console.log(process.env.SECRET_PASSWORD);
 
 import axios from "axios";
 import chalk from "chalk";
+import { log } from "console";
 
 //creo una costante con la api url
 
@@ -56,3 +57,6 @@ axios.get(api)
 
 //la chiamata funziona il server mi risponde
 
+// faccio un console log utilizzando chalk per cambiarci ilò colore, dicendo che il server mi ha risposto
+
+console.log(chalk.green("il sever funziona!"));
